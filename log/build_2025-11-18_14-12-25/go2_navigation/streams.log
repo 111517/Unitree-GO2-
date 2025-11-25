@@ -1,0 +1,20 @@
+[0.600s] Invoking command in '/home/ayi/unitree_go2_ws/src/go2_navigation': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_navigation build --build-base /home/ayi/unitree_go2_ws/build/go2_navigation/build install --record /home/ayi/unitree_go2_ws/build/go2_navigation/install.log --single-version-externally-managed install_data
+[0.859s] running egg_info
+[0.860s] writing ../../build/go2_navigation/go2_navigation.egg-info/PKG-INFO
+[0.862s] writing dependency_links to ../../build/go2_navigation/go2_navigation.egg-info/dependency_links.txt
+[0.862s] writing entry points to ../../build/go2_navigation/go2_navigation.egg-info/entry_points.txt
+[0.862s] writing requirements to ../../build/go2_navigation/go2_navigation.egg-info/requires.txt
+[0.864s] writing top-level names to ../../build/go2_navigation/go2_navigation.egg-info/top_level.txt
+[0.864s] reading manifest file '../../build/go2_navigation/go2_navigation.egg-info/SOURCES.txt'
+[0.864s] writing manifest file '../../build/go2_navigation/go2_navigation.egg-info/SOURCES.txt'
+[0.864s] running build
+[0.864s] running build_py
+[0.865s] running install
+[0.866s] running install_lib
+[0.867s] running install_data
+[0.867s] running install_egg_info
+[0.870s] removing '/home/ayi/unitree_go2_ws/install/go2_navigation/lib/python3.10/site-packages/go2_navigation-0.0.0-py3.10.egg-info' (and everything under it)
+[0.873s] Copying ../../build/go2_navigation/go2_navigation.egg-info to /home/ayi/unitree_go2_ws/install/go2_navigation/lib/python3.10/site-packages/go2_navigation-0.0.0-py3.10.egg-info
+[0.873s] running install_scripts
+[0.897s] writing list of installed files to '/home/ayi/unitree_go2_ws/build/go2_navigation/install.log'
+[0.912s] Invoked command in '/home/ayi/unitree_go2_ws/src/go2_navigation' returned '0': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_navigation build --build-base /home/ayi/unitree_go2_ws/build/go2_navigation/build install --record /home/ayi/unitree_go2_ws/build/go2_navigation/install.log --single-version-externally-managed install_data

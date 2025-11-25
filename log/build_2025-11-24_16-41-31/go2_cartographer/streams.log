@@ -1,0 +1,51 @@
+[0.223s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/unitree_go2_ws/install/go2_application:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/ayi/unitree_go2_ws/src/go2_cartographer -DCMAKE_INSTALL_PREFIX=/home/ayi/unitree_go2_ws/install/go2_cartographer
+[0.453s] -- The C compiler identification is GNU 11.4.0
+[0.652s] -- The CXX compiler identification is GNU 11.4.0
+[0.680s] -- Detecting C compiler ABI info
+[0.815s] -- Detecting C compiler ABI info - done
+[0.819s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.820s] -- Detecting C compile features
+[0.821s] -- Detecting C compile features - done
+[0.827s] -- Detecting CXX compiler ABI info
+[0.987s] -- Detecting CXX compiler ABI info - done
+[1.001s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.002s] -- Detecting CXX compile features
+[1.004s] -- Detecting CXX compile features - done
+[1.026s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.374s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.702s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.920s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.924s] -- Added test 'lint_cmake' to check CMake code style
+[1.925s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.931s] -- Added test 'xmllint' to check XML markup files
+[1.939s] -- Configuring done
+[1.941s] -- Generating done
+[1.947s] -- Build files have been written to: /home/ayi/unitree_go2_ws/build/go2_cartographer
+[1.950s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/unitree_go2_ws/install/go2_application:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/ayi/unitree_go2_ws/src/go2_cartographer -DCMAKE_INSTALL_PREFIX=/home/ayi/unitree_go2_ws/install/go2_cartographer
+[1.953s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/unitree_go2_ws/install/go2_application:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_cartographer -- -j2 -l2
+[2.048s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/unitree_go2_ws/install/go2_application:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_cartographer -- -j2 -l2
+[2.068s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/unitree_go2_ws/install/go2_application:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/ayi/unitree_go2_ws/build/go2_cartographer
+[2.083s] -- Install configuration: ""
+[2.085s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/config
+[2.085s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/config/go2_3d.lua
+[2.085s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/config/go2_assets_writer_3d.lua
+[2.085s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/config/transform.lua
+[2.085s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/launch
+[2.085s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/launch/go2_cartographer.launch.py
+[2.085s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/rviz
+[2.085s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/ament_index/resource_index/package_run_dependencies/go2_cartographer
+[2.085s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/ament_index/resource_index/parent_prefix_path/go2_cartographer
+[2.085s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/environment/ament_prefix_path.sh
+[2.085s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/environment/ament_prefix_path.dsv
+[2.088s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/environment/path.sh
+[2.088s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/environment/path.dsv
+[2.088s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/local_setup.bash
+[2.089s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/local_setup.sh
+[2.089s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/local_setup.zsh
+[2.089s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/local_setup.dsv
+[2.089s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/package.dsv
+[2.089s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/ament_index/resource_index/packages/go2_cartographer
+[2.089s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/cmake/go2_cartographerConfig.cmake
+[2.089s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/cmake/go2_cartographerConfig-version.cmake
+[2.089s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/package.xml
+[2.099s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/unitree_go2_ws/install/go2_application:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/ayi/unitree_go2_ws/build/go2_cartographer

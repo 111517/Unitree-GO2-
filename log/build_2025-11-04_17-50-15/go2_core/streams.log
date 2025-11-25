@@ -1,0 +1,21 @@
+[0.620s] Invoking command in '/home/ayi/unitree_go2_ws/src/base/go2_core': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/go2_core build --build-base /home/ayi/unitree_go2_ws/build/go2_core/build install --record /home/ayi/unitree_go2_ws/build/go2_core/install.log --single-version-externally-managed install_data
+[0.838s] running egg_info
+[0.838s] writing ../../../build/go2_core/go2_core.egg-info/PKG-INFO
+[0.839s] writing dependency_links to ../../../build/go2_core/go2_core.egg-info/dependency_links.txt
+[0.840s] writing entry points to ../../../build/go2_core/go2_core.egg-info/entry_points.txt
+[0.840s] writing requirements to ../../../build/go2_core/go2_core.egg-info/requires.txt
+[0.840s] writing top-level names to ../../../build/go2_core/go2_core.egg-info/top_level.txt
+[0.841s] reading manifest file '../../../build/go2_core/go2_core.egg-info/SOURCES.txt'
+[0.842s] writing manifest file '../../../build/go2_core/go2_core.egg-info/SOURCES.txt'
+[0.843s] running build
+[0.843s] running build_py
+[0.843s] running install
+[0.843s] running install_lib
+[0.845s] running install_data
+[0.845s] copying launch/go2_start.launch.py -> /home/ayi/unitree_go2_ws/install/go2_core/share/go2_core/launch
+[0.845s] running install_egg_info
+[0.847s] removing '/home/ayi/unitree_go2_ws/install/go2_core/lib/python3.10/site-packages/go2_core-0.0.0-py3.10.egg-info' (and everything under it)
+[0.849s] Copying ../../../build/go2_core/go2_core.egg-info to /home/ayi/unitree_go2_ws/install/go2_core/lib/python3.10/site-packages/go2_core-0.0.0-py3.10.egg-info
+[0.849s] running install_scripts
+[0.865s] writing list of installed files to '/home/ayi/unitree_go2_ws/build/go2_core/install.log'
+[0.882s] Invoked command in '/home/ayi/unitree_go2_ws/src/base/go2_core' returned '0': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/go2_core build --build-base /home/ayi/unitree_go2_ws/build/go2_core/build install --record /home/ayi/unitree_go2_ws/build/go2_core/install.log --single-version-externally-managed install_data

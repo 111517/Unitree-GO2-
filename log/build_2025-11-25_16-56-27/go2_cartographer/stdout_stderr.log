@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/config
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/config/go2_3d.lua
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/config/go2_assets_writer_3d.lua
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/config/transform.lua
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/config/go2_2d.lua
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/launch
+-- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/launch/cartographer_3d.launch.py
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/launch/go2_cartographer.launch.py
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/rviz
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/rviz/default.rviz
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/ament_index/resource_index/package_run_dependencies/go2_cartographer
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/ament_index/resource_index/parent_prefix_path/go2_cartographer
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/environment/path.sh
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/environment/path.dsv
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/local_setup.bash
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/local_setup.sh
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/local_setup.zsh
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/local_setup.dsv
+-- Installing: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/package.dsv
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/ament_index/resource_index/packages/go2_cartographer
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/cmake/go2_cartographerConfig.cmake
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/cmake/go2_cartographerConfig-version.cmake
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_cartographer/share/go2_cartographer/package.xml

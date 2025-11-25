@@ -1,0 +1,12 @@
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/uninstall.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/go2_perception_uninstall.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/pointcloud_to_laserscan.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/pointcloud_to_laserscan_node.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/cloud_accumulation.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/test.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/edit_cache.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/rebuild_cache.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/list_install_components.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/install.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/install/local.dir
+/home/ayi/unitree_go2_ws/build/go2_perception/CMakeFiles/install/strip.dir

@@ -1,0 +1,6 @@
+setup.py
+go2_perception/__init__.py
+go2_perception.egg-info/PKG-INFO
+go2_perception.egg-info/SOURCES.txt
+go2_perception.egg-info/dependency_links.txt
+go2_perception.egg-info/top_level.txt

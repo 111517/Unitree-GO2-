@@ -1,0 +1,24 @@
+running egg_info
+creating ../../../build/go2_core/go2_core.egg-info
+writing ../../../build/go2_core/go2_core.egg-info/PKG-INFO
+writing dependency_links to ../../../build/go2_core/go2_core.egg-info/dependency_links.txt
+writing entry points to ../../../build/go2_core/go2_core.egg-info/entry_points.txt
+writing requirements to ../../../build/go2_core/go2_core.egg-info/requires.txt
+writing top-level names to ../../../build/go2_core/go2_core.egg-info/top_level.txt
+writing manifest file '../../../build/go2_core/go2_core.egg-info/SOURCES.txt'
+reading manifest file '../../../build/go2_core/go2_core.egg-info/SOURCES.txt'
+writing manifest file '../../../build/go2_core/go2_core.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ayi/unitree_go2_ws/build/go2_core/build
+creating /home/ayi/unitree_go2_ws/build/go2_core/build/lib
+creating /home/ayi/unitree_go2_ws/build/go2_core/build/lib/go2_core
+copying go2_core/__init__.py -> /home/ayi/unitree_go2_ws/build/go2_core/build/lib/go2_core
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ayi/unitree_go2_ws/install/go2_core/lib/python3.10/site-packages/go2_core-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/go2_core/go2_core.egg-info to /home/ayi/unitree_go2_ws/install/go2_core/lib/python3.10/site-packages/go2_core-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ayi/unitree_go2_ws/build/go2_core/install.log'

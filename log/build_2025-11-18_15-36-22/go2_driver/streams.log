@@ -1,0 +1,94 @@
+[0.008s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/ayi/unitree_go2_ws/src/base/go2_driver -DCMAKE_INSTALL_PREFIX=/home/ayi/unitree_go2_ws/install/go2_driver
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.161s] -- The CXX compiler identification is GNU 11.4.0
+[0.175s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.253s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.254s] -- Detecting C compile features
+[0.255s] -- Detecting C compile features - done
+[0.257s] -- Detecting CXX compiler ABI info
+[0.369s] -- Detecting CXX compiler ABI info - done
+[0.381s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.383s] -- Detecting CXX compile features
+[0.383s] -- Detecting CXX compile features - done
+[0.393s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.557s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.673s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.739s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.757s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.765s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.842s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.897s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.899s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/ayi/go2_work/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.919s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.932s] -- Looking for pthread.h
+[1.012s] -- Looking for pthread.h - found
+[1.012s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.082s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.082s] -- Found Threads: TRUE  
+[1.137s] -- Found unitree_go: 0.0.0 (/home/ayi/go2_work/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake)
+[1.210s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.252s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.293s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.511s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.581s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.796s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.796s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ayi/unitree_go2_ws/src/base/go2_driver/include>
+[1.797s] -- Configured cppcheck exclude dirs and/or files: 
+[1.798s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.801s] -- Added test 'lint_cmake' to check CMake code style
+[1.802s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.807s] -- Added test 'uncrustify' to check C / C++ code style
+[1.807s] -- Configured uncrustify additional arguments: 
+[1.809s] -- Added test 'xmllint' to check XML markup files
+[1.812s] -- Configuring done
+[1.862s] -- Generating done
+[1.875s] -- Build files have been written to: /home/ayi/unitree_go2_ws/build/go2_driver
+[1.890s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/ayi/unitree_go2_ws/src/base/go2_driver -DCMAKE_INSTALL_PREFIX=/home/ayi/unitree_go2_ws/install/go2_driver
+[1.891s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_driver -- -j2 -l2
+[2.032s] [ 12%] [32mBuilding CXX object CMakeFiles/footprint_to_link.dir/src/footprint_to_link.cpp.o[0m
+[2.040s] [ 25%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[12.901s] [ 37%] [32m[1mLinking CXX executable footprint_to_link[0m
+[13.504s] [ 37%] Built target footprint_to_link
+[17.894s] [ 50%] [32m[1mLinking CXX executable driver[0m
+[18.537s] [ 50%] Built target driver
+[18.559s] [ 62%] [32mBuilding CXX object CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o[0m
+[25.190s] [ 75%] [32m[1mLinking CXX executable lowstate_to_imu[0m
+[25.545s] [ 75%] Built target lowstate_to_imu
+[25.568s] [ 87%] [32mBuilding CXX object CMakeFiles/go2_core.dir/src/go2_core.cpp.o[0m
+[36.878s] [100%] [32m[1mLinking CXX executable go2_core[0m
+[37.419s] [100%] Built target go2_core
+[37.429s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_driver -- -j2 -l2
+[37.431s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/ayi/unitree_go2_ws/build/go2_driver
+[37.437s] -- Install configuration: ""
+[37.437s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/lib/go2_driver/driver
+[37.445s] -- Set runtime path of "/home/ayi/unitree_go2_ws/install/go2_driver/lib/go2_driver/driver" to ""
+[37.445s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/lib/go2_driver/footprint_to_link
+[37.449s] -- Set runtime path of "/home/ayi/unitree_go2_ws/install/go2_driver/lib/go2_driver/footprint_to_link" to ""
+[37.450s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/lib/go2_driver/lowstate_to_imu
+[37.451s] -- Set runtime path of "/home/ayi/unitree_go2_ws/install/go2_driver/lib/go2_driver/lowstate_to_imu" to ""
+[37.451s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/lib/go2_driver/go2_core
+[37.457s] -- Set runtime path of "/home/ayi/unitree_go2_ws/install/go2_driver/lib/go2_driver/go2_core" to ""
+[37.457s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/launch
+[37.457s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/launch/driver.launch.py
+[37.457s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/params
+[37.457s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/params/driver.yaml
+[37.457s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/rviz
+[37.457s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/rviz/display.rviz
+[37.457s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/ament_index/resource_index/package_run_dependencies/go2_driver
+[37.457s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/ament_index/resource_index/parent_prefix_path/go2_driver
+[37.458s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/environment/ament_prefix_path.sh
+[37.458s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/environment/ament_prefix_path.dsv
+[37.459s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/environment/path.sh
+[37.459s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/environment/path.dsv
+[37.459s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/local_setup.bash
+[37.461s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/local_setup.sh
+[37.461s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/local_setup.zsh
+[37.462s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/local_setup.dsv
+[37.462s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/package.dsv
+[37.462s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/ament_index/resource_index/packages/go2_driver
+[37.462s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/cmake/go2_driverConfig.cmake
+[37.462s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/cmake/go2_driverConfig-version.cmake
+[37.462s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_driver/share/go2_driver/package.xml
+[37.464s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/ayi/unitree_go2_ws/build/go2_driver

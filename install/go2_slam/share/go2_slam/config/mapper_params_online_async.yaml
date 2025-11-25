@@ -1,0 +1,114 @@
+slam_toolbox:
+  ros__parameters:
+
+    # Plugin params
+    solver_plugin: solver_plugins::CeresSolver
+    ceres_linear_solver: SPARSE_NORMAL_CHOLESKY
+    ceres_preconditioner: SCHUR_JACOBI
+    ceres_max_num_iterations: 100           # 从50增加到100，提高优化精度
+    ceres_trust_strategy: LEVENBERG_MARQUARDT
+    ceres_dogleg_type: TRADITIONAL_DOGLEG
+    ceres_loss_function: Cauchy             # 从None改为Cauchy，提高鲁棒性
+
+    # ROS Parameters
+    odom_frame: odom
+    map_frame: map
+    base_frame: base_footprint
+    scan_topic: /scan
+    mode: mapping
+    
+    debug_logging: true                     # 开启调试，便于排查问题
+    throttle_scans: 1                       # 激光雷达数据的降频参数
+    transform_publish_period: 0.01          # 从0.02降低，提高TF发布频率
+    map_update_interval: 0.1                # 从0.2降低，更频繁更新地图
+    resolution: 0.025                       # 从0.05提高到0.025，增加地图细节
+    max_laser_range: 12.0                   # 从20.0降低到L1雷达实际有效范围
+    minimum_time_interval: 0.2              # 从0.5降低，更频繁处理数据
+    transform_timeout: 0.5                  # 从0.2增加到0.3，机械狗TF可能延迟
+    tf_buffer_duration: 40.0
+    stack_size_to_use: 40000000
+    enable_interactive_mode: true
+
+    # ========== 新增关键参数 - 点云处理 ==========
+    # 点云滤波参数 - 消除噪声和黑点
+    range_data_inserter:
+      hit_probability: 0.6                  # 命中概率
+      miss_probability: 0.4                 # 未命中概率
+      probability_threshold: 0.7            # 点云加入地图的阈值
+
+    # 子图参数
+    num_range_data: 30                      # 每个子图包含的扫描次数
+
+    # 体素滤波
+    voxel_filter_size: 0.02                 # 体素滤波大小
+
+    # 运动滤波 - 防止静止时积累噪声
+    motion_filter:
+      max_time_seconds: 3.0
+      max_distance_meters: 0.05
+      max_angle_radians: 0.05
+
+    # 自适应体素滤波
+    adaptive_voxel_filter:
+      max_length: 0.8
+      min_num_points: 100
+      max_range: 12.0
+
+    loop_closure_adaptive_voxel_filter:
+      max_length: 0.8
+      min_num_points: 50
+      max_range: 12.0
+
+    # General Parameters
+    use_scan_matching: true
+    use_scan_barycenter: true              # 机械狗运动不稳定，关闭质心匹配
+    minimum_travel_distance: 0.1            # 从0.5大幅降低，适应机械狗精细运动
+    minimum_travel_heading: 0.15            # 从0.5大幅降低
+    scan_buffer_size: 20                    # 从10增加到20，提高匹配精度
+    scan_buffer_maximum_scan_distance: 12.0 # 从10.0增加到12.0
+    link_match_minimum_response_fine: 0.15  # 从0.1提高到0.15，增加匹配要求
+    link_scan_maximum_distance: 1.2         # 从1.5降低到1.2，提高近处匹配精度
+    loop_search_maximum_distance: 6.0       # 从3.0增加到6.0，增强回环检测
+    do_loop_closing: true 
+    loop_match_minimum_chain_size: 8        # 从10降低到8，更快检测回环
+    loop_match_maximum_variance_coarse: 2.0 # 从3.0降低到2.0，提高回环质量
+    loop_match_minimum_response_coarse: 0.4 # 从0.35提高到0.4，减少错误回环
+    loop_match_minimum_response_fine: 0.55  # 从0.45提高到0.55，增加回环精度
+
+    # Correlation Parameters - Correlation Parameters
+    correlation_search_space_dimension: 0.3 # 从0.5降低到0.3，提高搜索效率
+    correlation_search_space_resolution: 0.005 # 从0.01降低到0.005，提高搜索精度
+    correlation_search_space_smear_deviation: 0.05 # 从0.1降低到0.05
+
+    # Correlation Parameters - Loop Closure Parameters
+    loop_search_space_dimension: 6.0        # 从8.0降低到6.0，优化搜索效率
+    loop_search_space_resolution: 0.03      # 从0.05降低到0.03，提高精度
+    loop_search_space_smear_deviation: 0.02 # 从0.03降低到0.02
+
+    # Scan Matcher Parameters
+    distance_variance_penalty: 0.3          # 从0.5降低到0.3，减少距离惩罚
+    angle_variance_penalty: 0.7             # 从1.0降低到0.7，减少角度惩罚
+    fine_search_angle_offset: 0.00174       # 从0.00349降低，提高精细搜索精度
+    coarse_search_angle_offset: 0.174       # 从0.349降低，提高粗搜索精度
+    coarse_angle_resolution: 0.0174         # 从0.0349降低，提高角度分辨率
+    minimum_angle_penalty: 0.95             # 从0.9提高到0.95
+    minimum_distance_penalty: 0.7           # 从0.5提高到0.7
+    use_response_expansion: true
+
+    # ========== 新增参数 - 地图优化 ==========
+    # 优化地图更新策略
+    occupancy_map:
+      max_scan_range: 12.0
+      min_scan_range: 0.1
+      free_space_dilation_radius: 0.02
+      occupied_space_dilation_radius: 0.03
+
+    # 优化子图管理
+    submap_management:
+      num_submaps_to_keep: 5                # 保留的子图数量
+      submap_retention_duration: 300.0      # 子图保留时间
+
+    # 优化扫描匹配质量
+    scan_matcher:
+      translation_weight: 10.0
+      rotation_weight: 40.0

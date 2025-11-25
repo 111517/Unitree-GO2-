@@ -1,0 +1,34 @@
+[0.613s] Invoking command in '/home/ayi/unitree_go2_ws/src/go2_application': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_application build --build-base /home/ayi/unitree_go2_ws/build/go2_application/build install --record /home/ayi/unitree_go2_ws/build/go2_application/install.log --single-version-externally-managed install_data
+[0.797s] running egg_info
+[0.797s] creating ../../build/go2_application/go2_application.egg-info
+[0.797s] writing ../../build/go2_application/go2_application.egg-info/PKG-INFO
+[0.799s] writing dependency_links to ../../build/go2_application/go2_application.egg-info/dependency_links.txt
+[0.799s] writing entry points to ../../build/go2_application/go2_application.egg-info/entry_points.txt
+[0.799s] writing requirements to ../../build/go2_application/go2_application.egg-info/requires.txt
+[0.800s] writing top-level names to ../../build/go2_application/go2_application.egg-info/top_level.txt
+[0.800s] writing manifest file '../../build/go2_application/go2_application.egg-info/SOURCES.txt'
+[0.800s] reading manifest file '../../build/go2_application/go2_application.egg-info/SOURCES.txt'
+[0.800s] adding license file 'LICENSE'
+[0.800s] writing manifest file '../../build/go2_application/go2_application.egg-info/SOURCES.txt'
+[0.800s] running build
+[0.801s] running build_py
+[0.803s] creating /home/ayi/unitree_go2_ws/build/go2_application/build
+[0.803s] creating /home/ayi/unitree_go2_ws/build/go2_application/build/lib
+[0.803s] creating /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[0.803s] copying go2_application/get_go2_pose.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[0.804s] copying go2_application/nav_to_pose.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[0.804s] copying go2_application/waypoint_flollower.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[0.804s] copying go2_application/init_go2_pose.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[0.806s] copying go2_application/go2_partol.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[0.806s] copying go2_application/__init__.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[0.806s] running install
+[0.806s] running install_lib
+[0.806s] running install_data
+[0.806s] running install_egg_info
+[0.806s] removing '/home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application-0.0.0-py3.10.egg-info' (and everything under it)
+[0.806s] Copying ../../build/go2_application/go2_application.egg-info to /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application-0.0.0-py3.10.egg-info
+[0.806s] running install_scripts
+[0.821s] Installing go2_partol script to /home/ayi/unitree_go2_ws/install/go2_application/lib/go2_application
+[0.821s] Installing init_go2_pose script to /home/ayi/unitree_go2_ws/install/go2_application/lib/go2_application
+[0.821s] writing list of installed files to '/home/ayi/unitree_go2_ws/build/go2_application/install.log'
+[0.837s] Invoked command in '/home/ayi/unitree_go2_ws/src/go2_application' returned '0': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_application build --build-base /home/ayi/unitree_go2_ws/build/go2_application/build install --record /home/ayi/unitree_go2_ws/build/go2_application/install.log --single-version-externally-managed install_data

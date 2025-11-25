@@ -1,0 +1,52 @@
+[0.025s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_perception -- -j2 -l2
+[0.151s] [35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[0.182s] [ 33%] Built target pointcloud_to_laserscan_node
+[0.192s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target cloud_accumulation[0m
+[0.241s] [ 83%] Built target cloud_accumulation
+[0.316s] [ 83%] Built target ament_cmake_python_copy_go2_perception
+[1.035s] running egg_info
+[1.038s] writing go2_perception.egg-info/PKG-INFO
+[1.039s] writing dependency_links to go2_perception.egg-info/dependency_links.txt
+[1.039s] writing top-level names to go2_perception.egg-info/top_level.txt
+[1.045s] reading manifest file 'go2_perception.egg-info/SOURCES.txt'
+[1.045s] writing manifest file 'go2_perception.egg-info/SOURCES.txt'
+[1.093s] [ 83%] Built target ament_cmake_python_build_go2_perception_egg
+[10.887s] [100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[11.416s] [100%] Built target pointcloud_to_laserscan
+[11.432s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_perception -- -j2 -l2
+[11.436s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/ayi/unitree_go2_ws/build/go2_perception
+[11.446s] -- Install configuration: ""
+[11.446s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node
+[11.451s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/lib/libpointcloud_to_laserscan.so
+[11.460s] -- Set runtime path of "/home/ayi/unitree_go2_ws/install/go2_perception/lib/libpointcloud_to_laserscan.so" to ""
+[11.461s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/lib/go2_perception/cloud_accumulation
+[11.462s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/launch
+[11.463s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/launch/go2_pointcloud_process.launch.py
+[11.463s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/pythonpath.sh
+[11.463s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/pythonpath.dsv
+[11.463s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception-0.0.0-py3.10.egg-info
+[11.463s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception-0.0.0-py3.10.egg-info/top_level.txt
+[11.464s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.465s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception-0.0.0-py3.10.egg-info/PKG-INFO
+[11.465s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.465s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception
+[11.465s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception/__init__.py
+[11.505s] Listing '/home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception'...
+[11.507s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/ament_index/resource_index/package_run_dependencies/go2_perception
+[11.507s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/ament_index/resource_index/parent_prefix_path/go2_perception
+[11.507s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/ament_prefix_path.sh
+[11.507s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/ament_prefix_path.dsv
+[11.507s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/path.sh
+[11.508s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/path.dsv
+[11.508s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/local_setup.bash
+[11.508s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/local_setup.sh
+[11.508s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/local_setup.zsh
+[11.508s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/local_setup.dsv
+[11.509s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/package.dsv
+[11.510s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/ament_index/resource_index/packages/go2_perception
+[11.510s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/ament_index/resource_index/rclcpp_components/go2_perception
+[11.510s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig.cmake
+[11.510s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig-version.cmake
+[11.510s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/package.xml
+[11.511s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/ayi/unitree_go2_ws/build/go2_perception

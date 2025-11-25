@@ -1,0 +1,48 @@
+[35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[ 33%] Built target pointcloud_to_laserscan_node
+[ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[35m[1mConsolidate compiler generated dependencies of target cloud_accumulation[0m
+[ 83%] Built target cloud_accumulation
+[ 83%] Built target ament_cmake_python_copy_go2_perception
+running egg_info
+writing go2_perception.egg-info/PKG-INFO
+writing dependency_links to go2_perception.egg-info/dependency_links.txt
+writing top-level names to go2_perception.egg-info/top_level.txt
+reading manifest file 'go2_perception.egg-info/SOURCES.txt'
+writing manifest file 'go2_perception.egg-info/SOURCES.txt'
+[ 83%] Built target ament_cmake_python_build_go2_perception_egg
+[100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[100%] Built target pointcloud_to_laserscan
+-- Install configuration: ""
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node
+-- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/lib/libpointcloud_to_laserscan.so
+-- Set runtime path of "/home/ayi/unitree_go2_ws/install/go2_perception/lib/libpointcloud_to_laserscan.so" to ""
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/lib/go2_perception/cloud_accumulation
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/launch
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/launch/go2_pointcloud_process.launch.py
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/pythonpath.sh
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/pythonpath.dsv
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception-0.0.0-py3.10.egg-info
+-- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception/__init__.py
+Listing '/home/ayi/unitree_go2_ws/install/go2_perception/local/lib/python3.10/dist-packages/go2_perception'...
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/ament_index/resource_index/package_run_dependencies/go2_perception
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/ament_index/resource_index/parent_prefix_path/go2_perception
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/path.sh
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/environment/path.dsv
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/local_setup.bash
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/local_setup.sh
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/local_setup.zsh
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/local_setup.dsv
+-- Installing: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/package.dsv
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/ament_index/resource_index/packages/go2_perception
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/ament_index/resource_index/rclcpp_components/go2_perception
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig.cmake
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig-version.cmake
+-- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_perception/share/go2_perception/package.xml

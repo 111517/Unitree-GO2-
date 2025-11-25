@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target driver[0m
+[35m[1mConsolidate compiler generated dependencies of target footprint_to_link[0m
+[ 25%] Built target driver
+[ 50%] Built target footprint_to_link
+[35m[1mConsolidate compiler generated dependencies of target go2_core[0m
+[35m[1mConsolidate compiler generated dependencies of target lowstate_to_imu[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/go2_core.dir/src/go2_core.cpp.o[0m
+[ 87%] Built target lowstate_to_imu

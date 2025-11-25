@@ -1,0 +1,18 @@
+[0.023s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_driver -- -j2 -l2
+[0.178s] [ 33%] Built target footprint_to_link
+[0.185s] [ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[0.239s] [ 83%] Built target lowstate_to_imu
+[2.796s] [01m[K/home/ayi/unitree_go2_ws/src/base/go2_driver/src/driver.cpp:[m[K In member function ‘[01m[Kvoid Driver::pose_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.798s] [01m[K/home/ayi/unitree_go2_ws/src/base/go2_driver/src/driver.cpp:114:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[2.798s]   114 |             [01;31m[Ktf2[m[K::Quaternion q(
+[2.798s]       |             [01;31m[K^~~[m[K
+[2.799s] [01m[K/home/ayi/unitree_go2_ws/src/base/go2_driver/src/driver.cpp:119:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+[2.799s]   119 |             [01;31m[Ktf2[m[K::Matrix3x3(q).getRPY(roll, pitch, yaw);
+[2.799s]       |             [01;31m[K^~~[m[K
+[2.803s] [01m[K/home/ayi/unitree_go2_ws/src/base/go2_driver/src/driver.cpp:119:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kq[m[K’ was not declared in this scope
+[2.803s]   119 |             tf2::Matrix3x3([01;31m[Kq[m[K).getRPY(roll, pitch, yaw);
+[2.803s]       |                            [01;31m[K^[m[K
+[6.110s] gmake[2]: *** [CMakeFiles/driver.dir/build.make:76：CMakeFiles/driver.dir/src/driver.cpp.o] 错误 1
+[6.110s] gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/driver.dir/all] 错误 2
+[6.110s] gmake: *** [Makefile:146：all] 错误 2
+[6.111s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_driver -- -j2 -l2

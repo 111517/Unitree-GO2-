@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[ 33%] Built target pointcloud_to_laserscan
+[ 66%] Built target pointcloud_to_laserscan_node
+[100%] Built target cloud_accumulation
+Error copying directory from "/home/ayi/unitree_go2_ws/src/go2_perception/go2_perception" to "/home/ayi/unitree_go2_ws/build/go2_perception/ament_cmake_python/go2_perception/go2_perception".
+gmake[2]: *** [CMakeFiles/ament_cmake_python_copy_go2_perception.dir/build.make:70：CMakeFiles/ament_cmake_python_copy_go2_perception] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:222：CMakeFiles/ament_cmake_python_copy_go2_perception.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

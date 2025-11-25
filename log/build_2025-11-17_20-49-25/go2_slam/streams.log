@@ -1,0 +1,48 @@
+[0.051s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/ayi/unitree_go2_ws/src/go2_slam -DCMAKE_INSTALL_PREFIX=/home/ayi/unitree_go2_ws/install/go2_slam
+[0.217s] -- The C compiler identification is GNU 11.4.0
+[0.322s] -- The CXX compiler identification is GNU 11.4.0
+[0.346s] -- Detecting C compiler ABI info
+[0.565s] -- Detecting C compiler ABI info - done
+[0.574s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.576s] -- Detecting C compile features
+[0.577s] -- Detecting C compile features - done
+[0.586s] -- Detecting CXX compiler ABI info
+[0.853s] -- Detecting CXX compiler ABI info - done
+[0.858s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.858s] -- Detecting CXX compile features
+[0.860s] -- Detecting CXX compile features - done
+[0.875s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.495s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.940s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.121s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.123s] -- Added test 'lint_cmake' to check CMake code style
+[2.126s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.130s] -- Added test 'xmllint' to check XML markup files
+[2.135s] -- Configuring done
+[2.140s] -- Generating done
+[2.146s] -- Build files have been written to: /home/ayi/unitree_go2_ws/build/go2_slam
+[2.152s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/ayi/unitree_go2_ws/src/go2_slam -DCMAKE_INSTALL_PREFIX=/home/ayi/unitree_go2_ws/install/go2_slam
+[2.153s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_slam -- -j2 -l2
+[2.230s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_slam -- -j2 -l2
+[2.230s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/ayi/unitree_go2_ws/build/go2_slam
+[2.247s] -- Install configuration: ""
+[2.247s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/launch
+[2.248s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/launch/go2_slamtoolbox.launch.py
+[2.249s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/config
+[2.249s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/config/mapper_params_online_async.yaml
+[2.249s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/ament_index/resource_index/package_run_dependencies/go2_slam
+[2.253s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/ament_index/resource_index/parent_prefix_path/go2_slam
+[2.253s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/environment/ament_prefix_path.sh
+[2.253s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/environment/ament_prefix_path.dsv
+[2.254s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/environment/path.sh
+[2.254s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/environment/path.dsv
+[2.254s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/local_setup.bash
+[2.254s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/local_setup.sh
+[2.256s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/local_setup.zsh
+[2.256s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/local_setup.dsv
+[2.256s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/package.dsv
+[2.256s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/ament_index/resource_index/packages/go2_slam
+[2.256s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/cmake/go2_slamConfig.cmake
+[2.256s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/cmake/go2_slamConfig-version.cmake
+[2.256s] -- Up-to-date: /home/ayi/unitree_go2_ws/install/go2_slam/share/go2_slam/package.xml
+[2.261s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/unitree_go2_ws/install/go2_twist_bridge_py:/home/ayi/unitree_go2_ws/install/go2_navigation:/home/ayi/unitree_go2_ws/install/go2_driver_py:/home/ayi/unitree_go2_ws/install/go2_core:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/ayi/unitree_go2_ws/build/go2_slam

@@ -1,0 +1,3 @@
+[ 33%] Built target pointcloud_to_laserscan
+[ 66%] Built target pointcloud_to_laserscan_node
+[100%] Built target cloud_accumulation

@@ -1,0 +1,33 @@
+[0.505s] Invoking command in '/home/ayi/unitree_go2_ws/src/base/go2_driver_py': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_driver_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_driver_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/go2_driver_py build --build-base /home/ayi/unitree_go2_ws/build/go2_driver_py/build install --record /home/ayi/unitree_go2_ws/build/go2_driver_py/install.log --single-version-externally-managed install_data
+[0.678s] running egg_info
+[0.678s] writing ../../../build/go2_driver_py/go2_driver_py.egg-info/PKG-INFO
+[0.678s] writing dependency_links to ../../../build/go2_driver_py/go2_driver_py.egg-info/dependency_links.txt
+[0.679s] writing entry points to ../../../build/go2_driver_py/go2_driver_py.egg-info/entry_points.txt
+[0.680s] writing requirements to ../../../build/go2_driver_py/go2_driver_py.egg-info/requires.txt
+[0.680s] writing top-level names to ../../../build/go2_driver_py/go2_driver_py.egg-info/top_level.txt
+[0.681s] reading manifest file '../../../build/go2_driver_py/go2_driver_py.egg-info/SOURCES.txt'
+[0.685s] writing manifest file '../../../build/go2_driver_py/go2_driver_py.egg-info/SOURCES.txt'
+[0.685s] running build
+[0.685s] running build_py
+[0.685s] copying go2_driver_py/driver.py -> /home/ayi/unitree_go2_ws/build/go2_driver_py/build/lib/go2_driver_py
+[0.686s] copying go2_driver_py/lowstate_to_imu.py -> /home/ayi/unitree_go2_ws/build/go2_driver_py/build/lib/go2_driver_py
+[0.686s] copying go2_driver_py/footprint_to_link.py -> /home/ayi/unitree_go2_ws/build/go2_driver_py/build/lib/go2_driver_py
+[0.686s] running install
+[0.686s] running install_lib
+[0.687s] copying /home/ayi/unitree_go2_ws/build/go2_driver_py/build/lib/go2_driver_py/driver.py -> /home/ayi/unitree_go2_ws/install/go2_driver_py/lib/python3.10/site-packages/go2_driver_py
+[0.687s] copying /home/ayi/unitree_go2_ws/build/go2_driver_py/build/lib/go2_driver_py/lowstate_to_imu.py -> /home/ayi/unitree_go2_ws/install/go2_driver_py/lib/python3.10/site-packages/go2_driver_py
+[0.688s] copying /home/ayi/unitree_go2_ws/build/go2_driver_py/build/lib/go2_driver_py/footprint_to_link.py -> /home/ayi/unitree_go2_ws/install/go2_driver_py/lib/python3.10/site-packages/go2_driver_py
+[0.688s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_driver_py/lib/python3.10/site-packages/go2_driver_py/driver.py to driver.cpython-310.pyc
+[0.691s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_driver_py/lib/python3.10/site-packages/go2_driver_py/lowstate_to_imu.py to lowstate_to_imu.cpython-310.pyc
+[0.691s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_driver_py/lib/python3.10/site-packages/go2_driver_py/footprint_to_link.py to footprint_to_link.cpython-310.pyc
+[0.692s] running install_data
+[0.692s] copying launch/driver.launch.py -> /home/ayi/unitree_go2_ws/install/go2_driver_py/share/go2_driver_py/launch
+[0.693s] running install_egg_info
+[0.694s] removing '/home/ayi/unitree_go2_ws/install/go2_driver_py/lib/python3.10/site-packages/go2_driver_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.698s] Copying ../../../build/go2_driver_py/go2_driver_py.egg-info to /home/ayi/unitree_go2_ws/install/go2_driver_py/lib/python3.10/site-packages/go2_driver_py-0.0.0-py3.10.egg-info
+[0.699s] running install_scripts
+[0.717s] Installing driver script to /home/ayi/unitree_go2_ws/install/go2_driver_py/lib/go2_driver_py
+[0.718s] Installing footprint_to_link script to /home/ayi/unitree_go2_ws/install/go2_driver_py/lib/go2_driver_py
+[0.718s] Installing lowstate_to_imu script to /home/ayi/unitree_go2_ws/install/go2_driver_py/lib/go2_driver_py
+[0.720s] writing list of installed files to '/home/ayi/unitree_go2_ws/build/go2_driver_py/install.log'
+[0.733s] Invoked command in '/home/ayi/unitree_go2_ws/src/base/go2_driver_py' returned '0': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_driver_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_driver_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/go2_driver_py build --build-base /home/ayi/unitree_go2_ws/build/go2_driver_py/build install --record /home/ayi/unitree_go2_ws/build/go2_driver_py/install.log --single-version-externally-managed install_data

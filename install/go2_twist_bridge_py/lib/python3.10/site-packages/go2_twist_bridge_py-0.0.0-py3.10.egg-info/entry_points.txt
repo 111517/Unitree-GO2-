@@ -1,0 +1,3 @@
+[console_scripts]
+twist_bridge = go2_twist_bridge_py.twist_bridge:main
+
