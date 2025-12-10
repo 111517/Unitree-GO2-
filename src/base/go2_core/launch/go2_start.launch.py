@@ -17,7 +17,8 @@ def generate_launch_description():
     go2_perception_pkg = get_package_share_directory("go2_perception")
     go2_navigation_pkg= get_package_share_directory("go2_navigation")
     go2_cartographer_pkg= get_package_share_directory("go2_cartographer")
-    
+    go2_application_pkg= get_package_share_directory("go2_application")
+    go2_camera_pkg= get_package_share_directory("go2_camera")
     # 添加启动开关
     use_slamtoolbox = DeclareLaunchArgument(
         name="use_slamtoolbox",
@@ -65,6 +66,17 @@ def generate_launch_description():
                 os.path.join(go2_cartographer_pkg, "launch", "go2_cartographer.launch.py")
             )
         )
+    
+    go2_application_launch = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                os.path.join(go2_application_pkg, "launch", "go2_application.launch.py")
+            )
+        )
+    go2_camera_launch = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(
+                os.path.join(go2_camera_pkg, "launch", "go2_camera.launch.py")
+            )
+        )
 
     # 包含rviz2
     rviz_node = Node(
@@ -77,9 +89,11 @@ def generate_launch_description():
     ld.add_action(go2_driver_launch)
     ld.add_action(go2_robot_localization) 
     ld.add_action(go2_pointcloud_launch)
-    #ld.add_action(TimerAction(period=15.0,actions=[go2_cartographer_launch]))
+    #ld.add_action(TimerAction(period=5.0,actions=[go2_cartographer_launch]))
     #ld.add_action(TimerAction(period=2.0,actions=[go2_slamtoolbox_launch]))
-    #ld.add_action(TimerAction(period=20.0,actions=[go2_navigation_launch]))
+    ld.add_action(TimerAction(period=20.0,actions=[go2_navigation_launch]))
     #ld.add_action(TimerAction(period=2.0,actions=[rviz_node]))
+    #ld.add_action(TimerAction(period=1.0,actions=[go2_camera_launch]))
+    ld.add_action(TimerAction(period=21.0,actions=[go2_application_launch]))
 
     return ld

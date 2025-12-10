@@ -1,0 +1,19 @@
+[0.716s] Invoking command in '/home/ayi/unitree_go2_ws/src/unitree_sdk2_python': PYTHONPATH=/home/ayi/unitree_go2_ws/build/unitree_sdk2py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/unitree_sdk2py build --build-base /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build install --record /home/ayi/unitree_go2_ws/build/unitree_sdk2py/install.log --single-version-externally-managed
+[0.928s] running egg_info
+[0.929s] writing ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/PKG-INFO
+[0.929s] writing dependency_links to ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/dependency_links.txt
+[0.929s] writing requirements to ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/requires.txt
+[0.930s] writing top-level names to ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/top_level.txt
+[0.933s] reading manifest file '../../build/unitree_sdk2py/unitree_sdk2py.egg-info/SOURCES.txt'
+[0.933s] adding license file 'LICENSE'
+[0.936s] writing manifest file '../../build/unitree_sdk2py/unitree_sdk2py.egg-info/SOURCES.txt'
+[0.936s] running build
+[0.936s] running build_py
+[0.946s] running install
+[0.946s] running install_lib
+[0.952s] running install_egg_info
+[0.954s] removing '/home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages/unitree_sdk2py-1.0.1-py3.10.egg-info' (and everything under it)
+[0.954s] Copying ../../build/unitree_sdk2py/unitree_sdk2py.egg-info to /home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages/unitree_sdk2py-1.0.1-py3.10.egg-info
+[0.956s] running install_scripts
+[0.975s] writing list of installed files to '/home/ayi/unitree_go2_ws/build/unitree_sdk2py/install.log'
+[0.992s] Invoked command in '/home/ayi/unitree_go2_ws/src/unitree_sdk2_python' returned '0': PYTHONPATH=/home/ayi/unitree_go2_ws/build/unitree_sdk2py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/unitree_sdk2py build --build-base /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build install --record /home/ayi/unitree_go2_ws/build/unitree_sdk2py/install.log --single-version-externally-managed

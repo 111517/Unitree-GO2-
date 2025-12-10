@@ -1,0 +1,194 @@
+[0.886s] Invoking command in '/home/ayi/unitree_go2_ws/src/unitree_sdk2_python': PYTHONPATH=/home/ayi/unitree_go2_ws/build/unitree_sdk2py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/unitree_sdk2py build --build-base /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build install --record /home/ayi/unitree_go2_ws/build/unitree_sdk2py/install.log --single-version-externally-managed
+[1.086s] running egg_info
+[1.086s] creating ../../build/unitree_sdk2py/unitree_sdk2py.egg-info
+[1.087s] writing ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/PKG-INFO
+[1.087s] writing dependency_links to ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/dependency_links.txt
+[1.088s] writing requirements to ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/requires.txt
+[1.088s] writing top-level names to ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/top_level.txt
+[1.089s] writing manifest file '../../build/unitree_sdk2py/unitree_sdk2py.egg-info/SOURCES.txt'
+[1.094s] reading manifest file '../../build/unitree_sdk2py/unitree_sdk2py.egg-info/SOURCES.txt'
+[1.094s] adding license file 'LICENSE'
+[1.094s] writing manifest file '../../build/unitree_sdk2py/unitree_sdk2py.egg-info/SOURCES.txt'
+[1.095s] running build
+[1.095s] running build_py
+[1.095s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build
+[1.096s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib
+[1.096s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py
+[1.096s] copying unitree_sdk2py/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py
+[1.097s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/core
+[1.098s] copying unitree_sdk2py/core/channel.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/core
+[1.098s] copying unitree_sdk2py/core/channel_name.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/core
+[1.098s] copying unitree_sdk2py/core/channel_config.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/core
+[1.099s] copying unitree_sdk2py/core/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/core
+[1.099s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.099s] copying unitree_sdk2py/rpc/client.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.099s] copying unitree_sdk2py/rpc/server_stub.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.099s] copying unitree_sdk2py/rpc/client_base.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.099s] copying unitree_sdk2py/rpc/lease_client.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.099s] copying unitree_sdk2py/rpc/server_base.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.099s] copying unitree_sdk2py/rpc/server.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.099s] copying unitree_sdk2py/rpc/lease_server.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.101s] copying unitree_sdk2py/rpc/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.101s] copying unitree_sdk2py/rpc/internal.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.101s] copying unitree_sdk2py/rpc/request_future.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.101s] copying unitree_sdk2py/rpc/client_stub.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/rpc
+[1.101s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2
+[1.104s] copying unitree_sdk2py/go2/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2
+[1.104s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl
+[1.104s] copying unitree_sdk2py/idl/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl
+[1.105s] copying unitree_sdk2py/idl/default.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl
+[1.105s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.105s] copying unitree_sdk2py/utils/future.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.106s] copying unitree_sdk2py/utils/bqueue.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.106s] copying unitree_sdk2py/utils/thread.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.106s] copying unitree_sdk2py/utils/crc.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.106s] copying unitree_sdk2py/utils/timerfd.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.106s] copying unitree_sdk2py/utils/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.106s] copying unitree_sdk2py/utils/clib_lookup.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.106s] copying unitree_sdk2py/utils/singleton.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.106s] copying unitree_sdk2py/utils/hz_sample.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.107s] copying unitree_sdk2py/utils/joystick.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/utils
+[1.107s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/video
+[1.107s] copying unitree_sdk2py/go2/video/video_client.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/video
+[1.107s] copying unitree_sdk2py/go2/video/video_api.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/video
+[1.107s] copying unitree_sdk2py/go2/video/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/video
+[1.107s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/robot_state
+[1.107s] copying unitree_sdk2py/go2/robot_state/robot_state_client.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/robot_state
+[1.107s] copying unitree_sdk2py/go2/robot_state/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/robot_state
+[1.107s] copying unitree_sdk2py/go2/robot_state/robot_state_api.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/robot_state
+[1.107s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/obstacles_avoid
+[1.107s] copying unitree_sdk2py/go2/obstacles_avoid/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/obstacles_avoid
+[1.107s] copying unitree_sdk2py/go2/obstacles_avoid/obstacles_avoid_api.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/obstacles_avoid
+[1.108s] copying unitree_sdk2py/go2/obstacles_avoid/obstacles_avoid_client.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/obstacles_avoid
+[1.108s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/sport
+[1.108s] copying unitree_sdk2py/go2/sport/sport_api.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/sport
+[1.108s] copying unitree_sdk2py/go2/sport/sport_client.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/sport
+[1.110s] copying unitree_sdk2py/go2/sport/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/sport
+[1.111s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/vui
+[1.111s] copying unitree_sdk2py/go2/vui/vui_api.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/vui
+[1.111s] copying unitree_sdk2py/go2/vui/vui_client.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/vui
+[1.111s] copying unitree_sdk2py/go2/vui/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/go2/vui
+[1.111s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/nav_msgs
+[1.111s] copying unitree_sdk2py/idl/nav_msgs/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/nav_msgs
+[1.112s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/std_msgs
+[1.112s] copying unitree_sdk2py/idl/std_msgs/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/std_msgs
+[1.113s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/builtin_interfaces
+[1.113s] copying unitree_sdk2py/idl/builtin_interfaces/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/builtin_interfaces
+[1.114s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go
+[1.114s] copying unitree_sdk2py/idl/unitree_go/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go
+[1.115s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api
+[1.115s] copying unitree_sdk2py/idl/unitree_api/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api
+[1.116s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs
+[1.116s] copying unitree_sdk2py/idl/sensor_msgs/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs
+[1.116s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs
+[1.116s] copying unitree_sdk2py/idl/geometry_msgs/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs
+[1.116s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg
+[1.116s] copying unitree_sdk2py/idl/unitree_hg/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg
+[1.116s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/nav_msgs/msg
+[1.116s] copying unitree_sdk2py/idl/nav_msgs/msg/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/nav_msgs/msg
+[1.117s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/nav_msgs/msg/dds_
+[1.117s] copying unitree_sdk2py/idl/nav_msgs/msg/dds_/_OccupancyGrid_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/nav_msgs/msg/dds_
+[1.118s] copying unitree_sdk2py/idl/nav_msgs/msg/dds_/_MapMetaData_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/nav_msgs/msg/dds_
+[1.118s] copying unitree_sdk2py/idl/nav_msgs/msg/dds_/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/nav_msgs/msg/dds_
+[1.118s] copying unitree_sdk2py/idl/nav_msgs/msg/dds_/_Odometry_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/nav_msgs/msg/dds_
+[1.118s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/std_msgs/msg
+[1.118s] copying unitree_sdk2py/idl/std_msgs/msg/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/std_msgs/msg
+[1.119s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/std_msgs/msg/dds_
+[1.119s] copying unitree_sdk2py/idl/std_msgs/msg/dds_/_Header_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/std_msgs/msg/dds_
+[1.120s] copying unitree_sdk2py/idl/std_msgs/msg/dds_/_String_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/std_msgs/msg/dds_
+[1.120s] copying unitree_sdk2py/idl/std_msgs/msg/dds_/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/std_msgs/msg/dds_
+[1.120s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/builtin_interfaces/msg
+[1.120s] copying unitree_sdk2py/idl/builtin_interfaces/msg/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/builtin_interfaces/msg
+[1.121s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/builtin_interfaces/msg/dds_
+[1.121s] copying unitree_sdk2py/idl/builtin_interfaces/msg/dds_/_Time_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/builtin_interfaces/msg/dds_
+[1.122s] copying unitree_sdk2py/idl/builtin_interfaces/msg/dds_/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/builtin_interfaces/msg/dds_
+[1.122s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg
+[1.122s] copying unitree_sdk2py/idl/unitree_go/msg/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg
+[1.122s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.123s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_MotorCmds_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.123s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_MotorState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.124s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_MotorCmd_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.124s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_MotorStates_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.124s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_WirelessController_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.124s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_Req_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.124s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_TimeSpec_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.124s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_PathPoint_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.125s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_LowState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.125s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_LidarState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.126s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_InterfaceConfig_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.126s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_Go2FrontVideoData_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.126s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_SportModeState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.127s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_Error_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.127s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_LowCmd_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.127s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_UwbState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.127s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_IMUState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.127s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.127s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_Res_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.127s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_HeightMap_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.129s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_UwbSwitch_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.129s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_BmsState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.129s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_AudioData_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.129s] copying unitree_sdk2py/idl/unitree_go/msg/dds_/_BmsCmd_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_go/msg/dds_
+[1.129s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg
+[1.129s] copying unitree_sdk2py/idl/unitree_api/msg/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg
+[1.129s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg/dds_
+[1.131s] copying unitree_sdk2py/idl/unitree_api/msg/dds_/_RequestPolicy_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg/dds_
+[1.131s] copying unitree_sdk2py/idl/unitree_api/msg/dds_/_RequestIdentity_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg/dds_
+[1.131s] copying unitree_sdk2py/idl/unitree_api/msg/dds_/_Response_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg/dds_
+[1.131s] copying unitree_sdk2py/idl/unitree_api/msg/dds_/_ResponseStatus_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg/dds_
+[1.131s] copying unitree_sdk2py/idl/unitree_api/msg/dds_/_ResponseHeader_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg/dds_
+[1.132s] copying unitree_sdk2py/idl/unitree_api/msg/dds_/_Request_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg/dds_
+[1.133s] copying unitree_sdk2py/idl/unitree_api/msg/dds_/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg/dds_
+[1.133s] copying unitree_sdk2py/idl/unitree_api/msg/dds_/_RequestHeader_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg/dds_
+[1.134s] copying unitree_sdk2py/idl/unitree_api/msg/dds_/_RequestLease_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_api/msg/dds_
+[1.134s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs/msg
+[1.134s] copying unitree_sdk2py/idl/sensor_msgs/msg/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs/msg
+[1.134s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs/msg/dds_
+[1.135s] copying unitree_sdk2py/idl/sensor_msgs/msg/dds_/_PointCloud2_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs/msg/dds_
+[1.135s] copying unitree_sdk2py/idl/sensor_msgs/msg/dds_/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs/msg/dds_
+[1.136s] copying unitree_sdk2py/idl/sensor_msgs/msg/dds_/_PointField_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs/msg/dds_
+[1.136s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs/msg/dds_/PointField_Constants
+[1.136s] copying unitree_sdk2py/idl/sensor_msgs/msg/dds_/PointField_Constants/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs/msg/dds_/PointField_Constants
+[1.136s] copying unitree_sdk2py/idl/sensor_msgs/msg/dds_/PointField_Constants/_PointField_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/sensor_msgs/msg/dds_/PointField_Constants
+[1.136s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg
+[1.136s] copying unitree_sdk2py/idl/geometry_msgs/msg/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg
+[1.136s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.138s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_PoseStamped_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.138s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_Point32_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.138s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_Twist_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.139s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_TwistWithCovarianceStamped_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.139s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_PointStamped_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.140s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_Vector3_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.140s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_PoseWithCovariance_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.140s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_QuaternionStamped_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.141s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_Point_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.141s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.141s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_Pose2D_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.142s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_PoseWithCovarianceStamped_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.142s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_Quaternion_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.142s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_TwistWithCovariance_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.142s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_Pose_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.142s] copying unitree_sdk2py/idl/geometry_msgs/msg/dds_/_TwistStamped_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/geometry_msgs/msg/dds_
+[1.142s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg
+[1.142s] copying unitree_sdk2py/idl/unitree_hg/msg/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg
+[1.143s] creating /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.143s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_HandState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.144s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_MotorState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.145s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_MotorCmd_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.145s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_HandCmd_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.145s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_PressSensorState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.145s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_LowState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.145s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_LowCmd_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.145s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_IMUState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.145s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.145s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_BmsState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.145s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_MainBoardState_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.145s] copying unitree_sdk2py/idl/unitree_hg/msg/dds_/_BmsCmd_.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/idl/unitree_hg/msg/dds_
+[1.151s] running install
+[1.151s] running install_lib
+[1.156s] running install_egg_info
+[1.159s] removing '/home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages/unitree_sdk2py-1.0.1-py3.10.egg-info' (and everything under it)
+[1.162s] Copying ../../build/unitree_sdk2py/unitree_sdk2py.egg-info to /home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages/unitree_sdk2py-1.0.1-py3.10.egg-info
+[1.163s] running install_scripts
+[1.182s] writing list of installed files to '/home/ayi/unitree_go2_ws/build/unitree_sdk2py/install.log'
+[1.200s] Invoked command in '/home/ayi/unitree_go2_ws/src/unitree_sdk2_python' returned '0': PYTHONPATH=/home/ayi/unitree_go2_ws/build/unitree_sdk2py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/unitree_sdk2py build --build-base /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build install --record /home/ayi/unitree_go2_ws/build/unitree_sdk2py/install.log --single-version-externally-managed

@@ -1,4 +1,0 @@
-[console_scripts]
-go2_partol = go2_application.go2_partol:main
-init_go2_pose = go2_application.init_go2_pose:main
-

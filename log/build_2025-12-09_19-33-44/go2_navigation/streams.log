@@ -1,0 +1,45 @@
+[1.678s] Invoking command in '/home/ayi/unitree_go2_ws/src/go2_navigation': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_navigation build --build-base /home/ayi/unitree_go2_ws/build/go2_navigation/build install --record /home/ayi/unitree_go2_ws/build/go2_navigation/install.log --single-version-externally-managed install_data
+[2.393s] running egg_info
+[2.394s] creating ../../build/go2_navigation/go2_navigation.egg-info
+[2.396s] writing ../../build/go2_navigation/go2_navigation.egg-info/PKG-INFO
+[2.398s] writing dependency_links to ../../build/go2_navigation/go2_navigation.egg-info/dependency_links.txt
+[2.398s] writing entry points to ../../build/go2_navigation/go2_navigation.egg-info/entry_points.txt
+[2.398s] writing requirements to ../../build/go2_navigation/go2_navigation.egg-info/requires.txt
+[2.398s] writing top-level names to ../../build/go2_navigation/go2_navigation.egg-info/top_level.txt
+[2.399s] writing manifest file '../../build/go2_navigation/go2_navigation.egg-info/SOURCES.txt'
+[2.399s] reading manifest file '../../build/go2_navigation/go2_navigation.egg-info/SOURCES.txt'
+[2.406s] writing manifest file '../../build/go2_navigation/go2_navigation.egg-info/SOURCES.txt'
+[2.406s] running build
+[2.406s] running build_py
+[2.408s] creating /home/ayi/unitree_go2_ws/build/go2_navigation/build
+[2.408s] creating /home/ayi/unitree_go2_ws/build/go2_navigation/build/lib
+[2.409s] creating /home/ayi/unitree_go2_ws/build/go2_navigation/build/lib/go2_navigation
+[2.409s] copying go2_navigation/__init__.py -> /home/ayi/unitree_go2_ws/build/go2_navigation/build/lib/go2_navigation
+[2.409s] running install
+[2.409s] running install_lib
+[2.412s] creating /home/ayi/unitree_go2_ws/install/go2_navigation/lib/python3.10/site-packages/go2_navigation
+[2.412s] copying /home/ayi/unitree_go2_ws/build/go2_navigation/build/lib/go2_navigation/__init__.py -> /home/ayi/unitree_go2_ws/install/go2_navigation/lib/python3.10/site-packages/go2_navigation
+[2.412s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_navigation/lib/python3.10/site-packages/go2_navigation/__init__.py to __init__.cpython-310.pyc
+[2.414s] running install_data
+[2.414s] creating /home/ayi/unitree_go2_ws/install/go2_navigation/share/ament_index
+[2.414s] creating /home/ayi/unitree_go2_ws/install/go2_navigation/share/ament_index/resource_index
+[2.414s] creating /home/ayi/unitree_go2_ws/install/go2_navigation/share/ament_index/resource_index/packages
+[2.414s] copying resource/go2_navigation -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/ament_index/resource_index/packages
+[2.414s] copying package.xml -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation
+[2.414s] creating /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/launch
+[2.414s] copying launch/go2_nav2.launch.py -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/launch
+[2.414s] creating /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/config
+[2.414s] copying config/nav2_params.yaml -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/config
+[2.416s] copying config/nav2_params1.yaml -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/config
+[2.418s] creating /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/maps
+[2.418s] copying maps/lab_map.yaml -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/maps
+[2.421s] copying maps/lab_map_2.yaml -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/maps
+[2.421s] copying maps/map.yaml -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/maps
+[2.421s] copying maps/lab_map.pgm -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/maps
+[2.421s] copying maps/map.pgm -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/maps
+[2.425s] copying maps/lab_map_2.pgm -> /home/ayi/unitree_go2_ws/install/go2_navigation/share/go2_navigation/maps
+[2.430s] running install_egg_info
+[2.439s] Copying ../../build/go2_navigation/go2_navigation.egg-info to /home/ayi/unitree_go2_ws/install/go2_navigation/lib/python3.10/site-packages/go2_navigation-0.0.0-py3.10.egg-info
+[2.440s] running install_scripts
+[2.542s] writing list of installed files to '/home/ayi/unitree_go2_ws/build/go2_navigation/install.log'
+[2.606s] Invoked command in '/home/ayi/unitree_go2_ws/src/go2_navigation' returned '0': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_navigation build --build-base /home/ayi/unitree_go2_ws/build/go2_navigation/build install --record /home/ayi/unitree_go2_ws/build/go2_navigation/install.log --single-version-externally-managed install_data

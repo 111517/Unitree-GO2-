@@ -15,7 +15,7 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='false') 
     map_yaml_path = LaunchConfiguration(
         'map', 
-        default=os.path.join(go2_navigation_dir, 'maps', 'lab_map_2.yaml')
+        default=os.path.join(go2_navigation_dir, 'maps', 'map.yaml')
     )
     nav2_param_path = LaunchConfiguration(
         'params_file', 

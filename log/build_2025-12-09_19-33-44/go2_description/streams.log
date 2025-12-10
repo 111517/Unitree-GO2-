@@ -1,0 +1,98 @@
+[0.016s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/ayi/unitree_go2_ws/src/go2_description -DCMAKE_INSTALL_PREFIX=/home/ayi/unitree_go2_ws/install/go2_description
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.154s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.295s] -- Detecting C compiler ABI info - done
+[0.298s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.298s] -- Detecting C compile features
+[0.298s] -- Detecting C compile features - done
+[0.305s] -- Detecting CXX compiler ABI info
+[0.514s] -- Detecting CXX compiler ABI info - done
+[0.531s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.536s] -- Detecting CXX compile features
+[0.536s] -- Detecting CXX compile features - done
+[0.540s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.895s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.073s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.249s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.249s] -- Added test 'lint_cmake' to check CMake code style
+[1.254s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.261s] -- Added test 'xmllint' to check XML markup files
+[1.263s] -- Configuring done
+[1.270s] -- Generating done
+[1.276s] -- Build files have been written to: /home/ayi/unitree_go2_ws/build/go2_description
+[1.280s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/ayi/unitree_go2_ws/src/go2_description -DCMAKE_INSTALL_PREFIX=/home/ayi/unitree_go2_ws/install/go2_description
+[1.282s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_description -- -j2 -l2
+[1.379s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/ayi/unitree_go2_ws/build/go2_description -- -j2 -l2
+[1.380s] Invoking command in '/home/ayi/unitree_go2_ws/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/ayi/unitree_go2_ws/build/go2_description
+[1.397s] -- Install configuration: ""
+[1.398s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/launch
+[1.398s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/launch/display.launch.py
+[1.398s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf
+[1.398s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/Normal_collision_model.png
+[1.403s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/go2_description.urdf
+[1.404s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/Amended_collision_model.png
+[1.405s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history
+[1.407s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193628.urdf
+[1.408s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904144240.urdf
+[1.412s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112752.urdf
+[1.412s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115313.urdf
+[1.412s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112944.urdf
+[1.415s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115040.urdf
+[1.416s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112047.urdf
+[1.416s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113000.urdf
+[1.416s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112143.urdf
+[1.416s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113059.urdf
+[1.416s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115300.urdf
+[1.416s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193653.urdf
+[1.418s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115021.urdf
+[1.419s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112217.urdf
+[1.419s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114819.urdf
+[1.420s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113755.urdf
+[1.422s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193710.urdf
+[1.422s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193644.urdf
+[1.422s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113754.urdf
+[1.423s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113839.urdf
+[1.424s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193705.urdf
+[1.426s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115022.urdf
+[1.426s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193711.urdf
+[1.426s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114759.urdf
+[1.426s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115226.urdf
+[1.427s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113633.urdf
+[1.428s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113840.urdf
+[1.429s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112749.urdf
+[1.430s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904182446.urdf
+[1.430s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112735.urdf
+[1.430s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115215.urdf
+[1.431s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/dae
+[1.431s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/dae/thigh.dae
+[1.454s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/dae/hip.dae
+[1.476s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/dae/thigh_mirror.dae
+[1.499s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/dae/calf_mirror.dae
+[1.507s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/dae/foot.dae
+[1.509s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/dae/base.dae
+[1.588s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/dae/calf.dae
+[1.611s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/meshes
+[1.611s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/meshes/trunk.dae
+[1.763s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/meshes/thigh.dae
+[1.829s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/meshes/hip.dae
+[1.889s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/meshes/thigh_mirror.dae
+[1.946s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/meshes/calf_mirror.dae
+[1.977s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/meshes/foot.dae
+[1.983s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/meshes/calf.dae
+[2.002s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/ament_index/resource_index/package_run_dependencies/go2_description
+[2.004s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/ament_index/resource_index/parent_prefix_path/go2_description
+[2.005s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/environment/ament_prefix_path.sh
+[2.005s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/environment/ament_prefix_path.dsv
+[2.006s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/environment/path.sh
+[2.006s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/environment/path.dsv
+[2.006s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/local_setup.bash
+[2.007s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/local_setup.sh
+[2.007s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/local_setup.zsh
+[2.008s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/local_setup.dsv
+[2.008s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/package.dsv
+[2.009s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/ament_index/resource_index/packages/go2_description
+[2.009s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/cmake/go2_descriptionConfig.cmake
+[2.009s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/cmake/go2_descriptionConfig-version.cmake
+[2.015s] -- Installing: /home/ayi/unitree_go2_ws/install/go2_description/share/go2_description/package.xml
+[2.015s] Invoked command in '/home/ayi/unitree_go2_ws/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ayi/dev_ws/install/learning_urdf:/home/ayi/dev_ws/install/learning_topic:/home/ayi/dev_ws/install/learning_tf:/home/ayi/dev_ws/install/learning_service:/home/ayi/dev_ws/install/learning_qos:/home/ayi/dev_ws/install/learning_pkg_python:/home/ayi/dev_ws/install/learning_parameter:/home/ayi/dev_ws/install/learning_node:/home/ayi/dev_ws/install/learning_launch:/home/ayi/dev_ws/install/learning_action:/home/ayi/dev_ws/install/learning_gazebo_harmonic:/home/ayi/dev_ws/install/learning_gazebo:/home/ayi/dev_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --install /home/ayi/unitree_go2_ws/build/go2_description

@@ -1,5 +1,0 @@
-[ 16%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
-[ 33%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
-[ 33%] Built target pointcloud_to_laserscan
-[ 66%] Built target pointcloud_to_laserscan_node
-[100%] Built target cloud_accumulation

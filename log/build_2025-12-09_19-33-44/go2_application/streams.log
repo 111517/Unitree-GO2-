@@ -1,0 +1,56 @@
+[1.078s] Invoking command in '/home/ayi/unitree_go2_ws/src/go2_application': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_application build --build-base /home/ayi/unitree_go2_ws/build/go2_application/build install --record /home/ayi/unitree_go2_ws/build/go2_application/install.log --single-version-externally-managed install_data
+[1.495s] running egg_info
+[1.495s] creating ../../build/go2_application/go2_application.egg-info
+[1.496s] writing ../../build/go2_application/go2_application.egg-info/PKG-INFO
+[1.496s] writing dependency_links to ../../build/go2_application/go2_application.egg-info/dependency_links.txt
+[1.497s] writing entry points to ../../build/go2_application/go2_application.egg-info/entry_points.txt
+[1.498s] writing requirements to ../../build/go2_application/go2_application.egg-info/requires.txt
+[1.498s] writing top-level names to ../../build/go2_application/go2_application.egg-info/top_level.txt
+[1.498s] writing manifest file '../../build/go2_application/go2_application.egg-info/SOURCES.txt'
+[1.502s] reading manifest file '../../build/go2_application/go2_application.egg-info/SOURCES.txt'
+[1.502s] adding license file 'LICENSE'
+[1.502s] writing manifest file '../../build/go2_application/go2_application.egg-info/SOURCES.txt'
+[1.502s] running build
+[1.502s] running build_py
+[1.502s] creating /home/ayi/unitree_go2_ws/build/go2_application/build
+[1.504s] creating /home/ayi/unitree_go2_ws/build/go2_application/build/lib
+[1.504s] creating /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[1.504s] copying go2_application/get_go2_pose.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[1.504s] copying go2_application/nav_to_pose.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[1.504s] copying go2_application/waypoint_flollower.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[1.504s] copying go2_application/init_go2_pose.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[1.504s] copying go2_application/go2_partol.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[1.504s] copying go2_application/__init__.py -> /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application
+[1.504s] running install
+[1.505s] running install_lib
+[1.506s] creating /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application
+[1.506s] copying /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application/get_go2_pose.py -> /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application
+[1.507s] copying /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application/nav_to_pose.py -> /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application
+[1.507s] copying /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application/waypoint_flollower.py -> /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application
+[1.507s] copying /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application/init_go2_pose.py -> /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application
+[1.510s] copying /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application/go2_partol.py -> /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application
+[1.510s] copying /home/ayi/unitree_go2_ws/build/go2_application/build/lib/go2_application/__init__.py -> /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application
+[1.510s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application/get_go2_pose.py to get_go2_pose.cpython-310.pyc
+[1.510s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application/nav_to_pose.py to nav_to_pose.cpython-310.pyc
+[1.510s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application/waypoint_flollower.py to waypoint_flollower.cpython-310.pyc
+[1.511s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application/init_go2_pose.py to init_go2_pose.cpython-310.pyc
+[1.511s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application/go2_partol.py to go2_partol.cpython-310.pyc
+[1.514s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application/__init__.py to __init__.cpython-310.pyc
+[1.514s] running install_data
+[1.515s] creating /home/ayi/unitree_go2_ws/install/go2_application/share/ament_index
+[1.515s] creating /home/ayi/unitree_go2_ws/install/go2_application/share/ament_index/resource_index
+[1.515s] creating /home/ayi/unitree_go2_ws/install/go2_application/share/ament_index/resource_index/packages
+[1.515s] copying resource/go2_application -> /home/ayi/unitree_go2_ws/install/go2_application/share/ament_index/resource_index/packages
+[1.515s] copying package.xml -> /home/ayi/unitree_go2_ws/install/go2_application/share/go2_application
+[1.515s] creating /home/ayi/unitree_go2_ws/install/go2_application/share/go2_application/launch
+[1.516s] copying launch/go2_application.launch.py -> /home/ayi/unitree_go2_ws/install/go2_application/share/go2_application/launch
+[1.516s] creating /home/ayi/unitree_go2_ws/install/go2_application/share/go2_application/config
+[1.517s] copying config/partol_config.yaml -> /home/ayi/unitree_go2_ws/install/go2_application/share/go2_application/config
+[1.518s] running install_egg_info
+[1.519s] Copying ../../build/go2_application/go2_application.egg-info to /home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages/go2_application-0.0.0-py3.10.egg-info
+[1.523s] running install_scripts
+[1.551s] Installing go2_partol script to /home/ayi/unitree_go2_ws/install/go2_application/lib/go2_application
+[1.552s] Installing init_go2_pose script to /home/ayi/unitree_go2_ws/install/go2_application/lib/go2_application
+[1.552s] Installing waypoint script to /home/ayi/unitree_go2_ws/install/go2_application/lib/go2_application
+[1.552s] writing list of installed files to '/home/ayi/unitree_go2_ws/build/go2_application/install.log'
+[1.594s] Invoked command in '/home/ayi/unitree_go2_ws/src/go2_application' returned '0': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_application/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_application/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_application build --build-base /home/ayi/unitree_go2_ws/build/go2_application/build install --record /home/ayi/unitree_go2_ws/build/go2_application/install.log --single-version-externally-managed install_data

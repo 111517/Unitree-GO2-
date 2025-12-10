@@ -10,8 +10,8 @@ def main():
     initial_pose = PoseStamped()
     initial_pose.header.frame_id = 'map'
     initial_pose.header.stamp = nav.get_clock().now().to_msg()
-    initial_pose.pose.position.x = 1.0  # 设置初始位置的x坐标
-    initial_pose.pose.position.y = 1.0  # 设置初始位置的y
+    initial_pose.pose.position.x = 0.0  # 设置初始位置的x坐标
+    initial_pose.pose.position.y = 0.0  # 设置初始位置的y
     initial_pose.pose.position.z = 0.0  # 设置初始位置的z坐标
     initial_pose.pose.orientation.x = 0.0
     initial_pose.pose.orientation.y = 0.0

@@ -1,9 +1,0 @@
-/home/ayi/unitree_go2_ws/build/go2_cartographer/CMakeFiles/uninstall.dir
-/home/ayi/unitree_go2_ws/build/go2_cartographer/CMakeFiles/go2_cartographer_uninstall.dir
-/home/ayi/unitree_go2_ws/build/go2_cartographer/CMakeFiles/test.dir
-/home/ayi/unitree_go2_ws/build/go2_cartographer/CMakeFiles/edit_cache.dir
-/home/ayi/unitree_go2_ws/build/go2_cartographer/CMakeFiles/rebuild_cache.dir
-/home/ayi/unitree_go2_ws/build/go2_cartographer/CMakeFiles/list_install_components.dir
-/home/ayi/unitree_go2_ws/build/go2_cartographer/CMakeFiles/install.dir
-/home/ayi/unitree_go2_ws/build/go2_cartographer/CMakeFiles/install/local.dir
-/home/ayi/unitree_go2_ws/build/go2_cartographer/CMakeFiles/install/strip.dir

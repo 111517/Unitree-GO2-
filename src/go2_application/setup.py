@@ -1,5 +1,5 @@
 from setuptools import find_packages, setup
-
+from glob import glob
 package_name = 'go2_application'
 
 setup(
@@ -10,7 +10,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name+"/config", ['config/partol_config.yaml']),
+        ('share/' + package_name + "/launch", glob("launch/*.launch.py")),
+        ('share/' + package_name + "/config", glob("config/*.yaml")),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -27,6 +28,7 @@ setup(
         'console_scripts': [
             "init_go2_pose = go2_application.init_go2_pose:main",
             "go2_partol = go2_application.go2_partol:main",
+            "waypoint = go2_application.waypoint_flollower:main",
         ],
     },
 )

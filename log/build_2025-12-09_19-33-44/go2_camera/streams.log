@@ -1,0 +1,46 @@
+[1.022s] Invoking command in '/home/ayi/unitree_go2_ws/src/go2_camera': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_camera build --build-base /home/ayi/unitree_go2_ws/build/go2_camera/build install --record /home/ayi/unitree_go2_ws/build/go2_camera/install.log --single-version-externally-managed install_data
+[1.337s] running egg_info
+[1.337s] creating ../../build/go2_camera/go2_camera.egg-info
+[1.337s] writing ../../build/go2_camera/go2_camera.egg-info/PKG-INFO
+[1.337s] writing dependency_links to ../../build/go2_camera/go2_camera.egg-info/dependency_links.txt
+[1.337s] writing entry points to ../../build/go2_camera/go2_camera.egg-info/entry_points.txt
+[1.337s] writing requirements to ../../build/go2_camera/go2_camera.egg-info/requires.txt
+[1.337s] writing top-level names to ../../build/go2_camera/go2_camera.egg-info/top_level.txt
+[1.338s] writing manifest file '../../build/go2_camera/go2_camera.egg-info/SOURCES.txt'
+[1.340s] reading manifest file '../../build/go2_camera/go2_camera.egg-info/SOURCES.txt'
+[1.343s] writing manifest file '../../build/go2_camera/go2_camera.egg-info/SOURCES.txt'
+[1.343s] running build
+[1.343s] running build_py
+[1.343s] creating /home/ayi/unitree_go2_ws/build/go2_camera/build
+[1.345s] creating /home/ayi/unitree_go2_ws/build/go2_camera/build/lib
+[1.345s] creating /home/ayi/unitree_go2_ws/build/go2_camera/build/lib/go2_camera
+[1.345s] copying go2_camera/go2_video.py -> /home/ayi/unitree_go2_ws/build/go2_camera/build/lib/go2_camera
+[1.345s] copying go2_camera/camera_opencv.py -> /home/ayi/unitree_go2_ws/build/go2_camera/build/lib/go2_camera
+[1.345s] copying go2_camera/__init__.py -> /home/ayi/unitree_go2_ws/build/go2_camera/build/lib/go2_camera
+[1.345s] copying go2_camera/yolo_detector.py -> /home/ayi/unitree_go2_ws/build/go2_camera/build/lib/go2_camera
+[1.346s] running install
+[1.346s] running install_lib
+[1.349s] creating /home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages/go2_camera
+[1.349s] copying /home/ayi/unitree_go2_ws/build/go2_camera/build/lib/go2_camera/go2_video.py -> /home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages/go2_camera
+[1.349s] copying /home/ayi/unitree_go2_ws/build/go2_camera/build/lib/go2_camera/camera_opencv.py -> /home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages/go2_camera
+[1.349s] copying /home/ayi/unitree_go2_ws/build/go2_camera/build/lib/go2_camera/__init__.py -> /home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages/go2_camera
+[1.349s] copying /home/ayi/unitree_go2_ws/build/go2_camera/build/lib/go2_camera/yolo_detector.py -> /home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages/go2_camera
+[1.349s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages/go2_camera/go2_video.py to go2_video.cpython-310.pyc
+[1.355s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages/go2_camera/camera_opencv.py to camera_opencv.cpython-310.pyc
+[1.355s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages/go2_camera/__init__.py to __init__.cpython-310.pyc
+[1.355s] byte-compiling /home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages/go2_camera/yolo_detector.py to yolo_detector.cpython-310.pyc
+[1.355s] running install_data
+[1.355s] creating /home/ayi/unitree_go2_ws/install/go2_camera/share/ament_index
+[1.355s] creating /home/ayi/unitree_go2_ws/install/go2_camera/share/ament_index/resource_index
+[1.355s] creating /home/ayi/unitree_go2_ws/install/go2_camera/share/ament_index/resource_index/packages
+[1.355s] copying resource/go2_camera -> /home/ayi/unitree_go2_ws/install/go2_camera/share/ament_index/resource_index/packages
+[1.355s] copying package.xml -> /home/ayi/unitree_go2_ws/install/go2_camera/share/go2_camera
+[1.355s] creating /home/ayi/unitree_go2_ws/install/go2_camera/share/go2_camera/launch
+[1.355s] copying launch/go2_camera.launch.py -> /home/ayi/unitree_go2_ws/install/go2_camera/share/go2_camera/launch
+[1.355s] running install_egg_info
+[1.359s] Copying ../../build/go2_camera/go2_camera.egg-info to /home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages/go2_camera-0.0.0-py3.10.egg-info
+[1.359s] running install_scripts
+[1.399s] Installing camera_opencv script to /home/ayi/unitree_go2_ws/install/go2_camera/lib/go2_camera
+[1.399s] Installing go2_video script to /home/ayi/unitree_go2_ws/install/go2_camera/lib/go2_camera
+[1.399s] writing list of installed files to '/home/ayi/unitree_go2_ws/build/go2_camera/install.log'
+[1.425s] Invoked command in '/home/ayi/unitree_go2_ws/src/go2_camera' returned '0': PYTHONPATH=/home/ayi/unitree_go2_ws/build/go2_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ayi/unitree_go2_ws/install/go2_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_camera build --build-base /home/ayi/unitree_go2_ws/build/go2_camera/build install --record /home/ayi/unitree_go2_ws/build/go2_camera/install.log --single-version-externally-managed install_data

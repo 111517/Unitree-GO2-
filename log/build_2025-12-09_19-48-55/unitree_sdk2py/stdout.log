@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/PKG-INFO
+writing dependency_links to ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/dependency_links.txt
+writing requirements to ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/requires.txt
+writing top-level names to ../../build/unitree_sdk2py/unitree_sdk2py.egg-info/top_level.txt
+reading manifest file '../../build/unitree_sdk2py/unitree_sdk2py.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/unitree_sdk2py/unitree_sdk2py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying unitree_sdk2py/__init__.py -> /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py
+running install
+running install_lib
+copying /home/ayi/unitree_go2_ws/build/unitree_sdk2py/build/lib/unitree_sdk2py/__init__.py -> /home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages/unitree_sdk2py
+byte-compiling /home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages/unitree_sdk2py/__init__.py to __init__.cpython-310.pyc
+running install_egg_info
+removing '/home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages/unitree_sdk2py-1.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/unitree_sdk2py/unitree_sdk2py.egg-info to /home/ayi/unitree_go2_ws/install/unitree_sdk2py/lib/python3.10/site-packages/unitree_sdk2py-1.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ayi/unitree_go2_ws/build/unitree_sdk2py/install.log'

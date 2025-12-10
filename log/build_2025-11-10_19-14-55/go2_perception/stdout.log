@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
-[ 33%] Built target pointcloud_to_laserscan
-[ 66%] Built target pointcloud_to_laserscan_node
-[100%] Built target cloud_accumulation
